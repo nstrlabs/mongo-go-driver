@@ -693,14 +693,12 @@ func (t *Topology) selectServerFromSubscription(
 	if interval <= 0 {
 		interval = 10 * time.Second
 	}
-	ticker := time.NewTicker(interval)
-	defer ticker.Stop()
 	for {
 		select {
 		case <-ctx.Done():
 			return nil, ServerSelectionError{Wrapped: ctx.Err(), Desc: current}
 		case current = <-subscriptionCh:
-		case <-ticker.C:
+		case <-time.After(interval):
 			t.RequestImmediateCheck()
 			current = t.Description()
 		}
