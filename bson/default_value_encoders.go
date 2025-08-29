@@ -14,7 +14,7 @@ import (
 	"reflect"
 	"sync"
 
-	"go.mongodb.org/mongo-driver/v2/x/bsonx/bsoncore"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/bsonx/bsoncore"
 )
 
 var bvwPool = sync.Pool{

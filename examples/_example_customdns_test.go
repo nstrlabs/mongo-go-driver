@@ -15,9 +15,9 @@ import (
 	"time"
 
 	"github.com/miekg/dns"
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/mongo"
-	"go.mongodb.org/mongo-driver/mongo/options"
+	"github.com/nstrlabs/mongo-go-driver/bson"
+	"github.com/nstrlabs/mongo-go-driver/mongo"
+	"github.com/nstrlabs/mongo-go-driver/mongo/options"
 )
 
 func resolve(ctx context.Context, cache *dnsCache, in *dns.Conn, out *dns.Conn) {

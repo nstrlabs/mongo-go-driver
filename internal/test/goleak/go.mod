@@ -1,12 +1,12 @@
-module go.mongodb.go/mongo-driver/v2/internal/test/goleak
+module github.com/nstrlabs/mongo-go-driver/v2/internal/test/goleak
 
 go 1.22
 
-replace go.mongodb.org/mongo-driver => ../../../
+replace github.com/nstrlabs/mongo-go-driver/v2 => ../../../
 
 require (
 	github.com/stretchr/testify v1.9.0
-	go.mongodb.org/mongo-driver/v2 v2.0.0-beta2
+	github.com/nstrlabs/mongo-go-driver/v2 v2.0.0-beta2
 	go.uber.org/goleak v1.3.0
 )
 

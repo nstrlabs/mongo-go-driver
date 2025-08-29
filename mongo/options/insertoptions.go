@@ -6,7 +6,7 @@
 
 package options
 
-import "go.mongodb.org/mongo-driver/v2/internal/optionsutil"
+import "github.com/nstrlabs/mongo-go-driver/v2/internal/optionsutil"
 
 // InsertOneOptions represents arguments that can be used to configure an InsertOne
 // operation.

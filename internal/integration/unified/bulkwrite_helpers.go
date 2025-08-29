@@ -9,9 +9,9 @@ package unified
 import (
 	"fmt"
 
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/internal/bsonutil"
-	"go.mongodb.org/mongo-driver/v2/mongo"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/bsonutil"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo"
 )
 
 // This file provides helper functions to convert BSON documents to WriteModel

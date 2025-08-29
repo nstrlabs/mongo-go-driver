@@ -2,11 +2,11 @@ module go.mongodb.go/mongo-driver/v2/internal/cmd/faas/awslambda/mongodb
 
 go 1.23
 
-replace go.mongodb.org/mongo-driver/v2 => ../../../../../
+replace github.com/nstrlabs/mongo-go-driver/v2 => ../../../../../
 
 require github.com/aws/aws-lambda-go v1.41.0
 
-require go.mongodb.org/mongo-driver/v2 v2.0.0-00010101000000-000000000000
+require github.com/nstrlabs/mongo-go-driver/v2 v2.0.0-00010101000000-000000000000
 
 require (
 	github.com/golang/snappy v1.0.0 // indirect

@@ -1,13 +1,13 @@
-module go.mongodb.go/mongo-driver/v2/examples/logger/zerolog
+module github.com/nstrlabs/mongo-go-driver/v2/examples/logger/zerolog
 
 go 1.23
 
-replace go.mongodb.org/mongo-driver/v2 => ../../../
+replace github.com/nstrlabs/mongo-go-driver/v2 => ../../../
 
 require (
 	github.com/go-logr/zerologr v1.2.2
 	github.com/rs/zerolog v1.28.0
-	go.mongodb.org/mongo-driver/v2 v2.0.0-alpha2
+	github.com/nstrlabs/mongo-go-driver/v2 v2.0.0-alpha2
 )
 
 require (

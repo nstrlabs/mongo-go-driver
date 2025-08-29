@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"testing"
 
-	"go.mongodb.org/mongo-driver/v2/internal/assert"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/assert"
 )
 
 type nonDefaultTransport struct{}

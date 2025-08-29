@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/mongo/options"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/options"
 )
 
 // NewOptions will functionally merge a slice of mongo.Options in a

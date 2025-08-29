@@ -6,7 +6,7 @@
 
 package options
 
-import "go.mongodb.org/mongo-driver/v2/internal/optionsutil"
+import "github.com/nstrlabs/mongo-go-driver/v2/internal/optionsutil"
 
 // CountOptions represents arguments that can be used to configure a
 // CountDocuments operation.
