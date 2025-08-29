@@ -7,10 +7,10 @@
 package mongo
 
 import (
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/mongo/options"
-	"go.mongodb.org/mongo-driver/v2/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/operation"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/options"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/bsonx/bsoncore"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/operation"
 )
 
 // ClientBulkWriteResult is the result type returned by a client-level BulkWrite operation.

@@ -16,10 +16,10 @@ import (
 	"testing"
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/internal/assert"
-	"go.mongodb.org/mongo-driver/v2/internal/require"
-	"go.mongodb.org/mongo-driver/v2/internal/serverselector"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/description"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/assert"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/require"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/serverselector"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/description"
 )
 
 var selectNone serverselector.Func = func(description.Topology, []description.Server) ([]description.Server, error) {

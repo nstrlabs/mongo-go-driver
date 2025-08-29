@@ -13,9 +13,9 @@ import (
 	"path"
 	"testing"
 
-	"go.mongodb.org/mongo-driver/v2/internal/require"
-	"go.mongodb.org/mongo-driver/v2/internal/spectest"
-	"go.mongodb.org/mongo-driver/v2/mongo/options"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/require"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/spectest"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/options"
 )
 
 type credential struct {

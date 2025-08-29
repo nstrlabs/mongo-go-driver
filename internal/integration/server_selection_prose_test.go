@@ -12,16 +12,16 @@ import (
 	"testing"
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/event"
-	"go.mongodb.org/mongo-driver/v2/internal/assert"
-	"go.mongodb.org/mongo-driver/v2/internal/eventtest"
-	"go.mongodb.org/mongo-driver/v2/internal/failpoint"
-	"go.mongodb.org/mongo-driver/v2/internal/integration/mtest"
-	"go.mongodb.org/mongo-driver/v2/internal/mongoutil"
-	"go.mongodb.org/mongo-driver/v2/internal/require"
-	"go.mongodb.org/mongo-driver/v2/mongo/options"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/description"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/event"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/assert"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/eventtest"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/failpoint"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/integration/mtest"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/mongoutil"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/require"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/options"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/description"
 )
 
 type saturatedConnections map[int64]bool

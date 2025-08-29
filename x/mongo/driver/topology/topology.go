@@ -30,17 +30,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/event"
-	"go.mongodb.org/mongo-driver/v2/internal/driverutil"
-	"go.mongodb.org/mongo-driver/v2/internal/logger"
-	"go.mongodb.org/mongo-driver/v2/internal/randutil"
-	"go.mongodb.org/mongo-driver/v2/mongo/address"
-	"go.mongodb.org/mongo-driver/v2/mongo/options"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/connstring"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/description"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/dns"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/event"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/driverutil"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/logger"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/randutil"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/address"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/options"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/connstring"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/description"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/dns"
 )
 
 // Topology state constants.

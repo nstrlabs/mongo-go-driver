@@ -9,7 +9,7 @@ package topology_test
 import (
 	"log"
 
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/topology"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/topology"
 )
 
 func Example_clusterMonitoring() {

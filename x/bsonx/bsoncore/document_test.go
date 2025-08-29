@@ -15,7 +15,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"go.mongodb.org/mongo-driver/v2/internal/assert"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/assert"
 )
 
 func ExampleDocument_Validate() {

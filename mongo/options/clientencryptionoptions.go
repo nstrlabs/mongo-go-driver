@@ -12,7 +12,7 @@ import (
 	"net/http"
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/internal/httputil"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/httputil"
 )
 
 // ClientEncryptionOptions represents all possible arguments used to configure a ClientEncryption instance.

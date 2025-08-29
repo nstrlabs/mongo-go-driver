@@ -11,8 +11,8 @@ import (
 	"net"
 	"testing"
 
-	"go.mongodb.org/mongo-driver/v2/internal/assert"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/dns"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/assert"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/dns"
 )
 
 func TestInitialDNSSeedlistDiscoveryProse(t *testing.T) {

@@ -16,9 +16,9 @@ import (
 	"testing"
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/internal/require"
-	"go.mongodb.org/mongo-driver/v2/internal/spectest"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/connstring"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/require"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/spectest"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/connstring"
 )
 
 type host struct {

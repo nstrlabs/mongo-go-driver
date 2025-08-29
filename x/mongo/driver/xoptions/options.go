@@ -9,9 +9,9 @@ package xoptions
 import (
 	"fmt"
 
-	"go.mongodb.org/mongo-driver/v2/internal/optionsutil"
-	"go.mongodb.org/mongo-driver/v2/mongo/options"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/optionsutil"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/options"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver"
 )
 
 // SetInternalClientOptions sets internal options for ClientOptions.

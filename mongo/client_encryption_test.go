@@ -13,11 +13,11 @@ import (
 	"context"
 	"testing"
 
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/internal/assert"
-	"go.mongodb.org/mongo-driver/v2/mongo/options"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/mongocrypt"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/assert"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/options"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/mongocrypt"
 )
 
 func TestClientEncryption_ErrClientDisconnected(t *testing.T) {

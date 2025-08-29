@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/internal/aws"
-	"go.mongodb.org/mongo-driver/v2/internal/aws/credentials"
-	"go.mongodb.org/mongo-driver/v2/internal/credproviders"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/aws"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/aws/credentials"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/credproviders"
 )
 
 func epochTime() time.Time { return time.Unix(0, 0) }

@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/event"
-	"go.mongodb.org/mongo-driver/v2/internal/assert"
-	"go.mongodb.org/mongo-driver/v2/internal/require"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/operation"
+	"github.com/nstrlabs/mongo-go-driver/v2/event"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/assert"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/require"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/operation"
 )
 
 func TestCMAPProse(t *testing.T) {

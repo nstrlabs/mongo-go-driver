@@ -23,11 +23,11 @@ import (
 	"time"
 	"unsafe"
 
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/internal/httputil"
-	"go.mongodb.org/mongo-driver/v2/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/auth/creds"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/mongocrypt/options"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/httputil"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/bsonx/bsoncore"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/auth/creds"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/mongocrypt/options"
 )
 
 type kmsProvider interface {

@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/internal/aws"
-	"go.mongodb.org/mongo-driver/v2/internal/aws/credentials"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/aws"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/aws/credentials"
 )
 
 const (

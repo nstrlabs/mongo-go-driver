@@ -14,16 +14,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/event"
-	"go.mongodb.org/mongo-driver/v2/internal/handshake"
-	"go.mongodb.org/mongo-driver/v2/internal/integration/mtest"
-	"go.mongodb.org/mongo-driver/v2/internal/integtest"
-	"go.mongodb.org/mongo-driver/v2/internal/logger"
-	"go.mongodb.org/mongo-driver/v2/mongo"
-	"go.mongodb.org/mongo-driver/v2/mongo/options"
-	"go.mongodb.org/mongo-driver/v2/mongo/readconcern"
-	"go.mongodb.org/mongo-driver/v2/x/bsonx/bsoncore"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/event"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/handshake"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/integration/mtest"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/integtest"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/logger"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/options"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/readconcern"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/bsonx/bsoncore"
 )
 
 // There are no automated tests for truncation. Given that, setting the

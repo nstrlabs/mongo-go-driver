@@ -9,9 +9,9 @@ package event
 import (
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/mongo/address"
-	"go.mongodb.org/mongo-driver/v2/tag"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/address"
+	"github.com/nstrlabs/mongo-go-driver/v2/tag"
 )
 
 // ServerDescription contains information about a node in a cluster. This is

@@ -10,9 +10,9 @@ import (
 	"context"
 	"net/http"
 
-	"go.mongodb.org/mongo-driver/v2/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/operation"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/bsonx/bsoncore"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/operation"
 )
 
 // MongoDBX509 is the mechanism name for MongoDBX509.

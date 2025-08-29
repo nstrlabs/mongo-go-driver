@@ -12,13 +12,13 @@ import (
 	"net/http"
 	"testing"
 
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/internal/assert"
-	"go.mongodb.org/mongo-driver/v2/internal/handshake"
-	"go.mongodb.org/mongo-driver/v2/mongo/address"
-	"go.mongodb.org/mongo-driver/v2/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/drivertest"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/mnet"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/assert"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/handshake"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/address"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/bsonx/bsoncore"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/drivertest"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/mnet"
 )
 
 var (

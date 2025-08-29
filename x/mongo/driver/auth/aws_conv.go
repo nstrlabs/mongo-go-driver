@@ -17,10 +17,10 @@ import (
 	"strings"
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/internal/aws/credentials"
-	v4signer "go.mongodb.org/mongo-driver/v2/internal/aws/signer/v4"
-	"go.mongodb.org/mongo-driver/v2/x/bsonx/bsoncore"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/aws/credentials"
+	v4signer "github.com/nstrlabs/mongo-go-driver/v2/internal/aws/signer/v4"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/bsonx/bsoncore"
 )
 
 type clientState int

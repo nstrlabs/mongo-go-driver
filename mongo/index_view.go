@@ -13,16 +13,16 @@ import (
 	"fmt"
 	"strconv"
 
-	"go.mongodb.org/mongo-driver/v2/internal/mongoutil"
-	"go.mongodb.org/mongo-driver/v2/internal/optionsutil"
-	"go.mongodb.org/mongo-driver/v2/internal/serverselector"
-	"go.mongodb.org/mongo-driver/v2/mongo/options"
-	"go.mongodb.org/mongo-driver/v2/mongo/readpref"
-	"go.mongodb.org/mongo-driver/v2/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/description"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/operation"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/session"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/mongoutil"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/optionsutil"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/serverselector"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/options"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/readpref"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/bsonx/bsoncore"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/description"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/operation"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/session"
 )
 
 // ErrInvalidIndexValue is returned if an index is created with a keys document that has a value that is not a number

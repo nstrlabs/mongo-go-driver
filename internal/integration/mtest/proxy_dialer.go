@@ -14,8 +14,8 @@ import (
 	"sync"
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/mongo/options"
-	"go.mongodb.org/mongo-driver/v2/x/bsonx/bsoncore"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/options"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/bsonx/bsoncore"
 )
 
 // ProxyMessage represents a sent/received pair of parsed wire messages.

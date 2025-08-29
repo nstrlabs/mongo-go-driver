@@ -14,15 +14,15 @@ import (
 	"strings"
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/event"
-	"go.mongodb.org/mongo-driver/v2/internal/codecutil"
-	"go.mongodb.org/mongo-driver/v2/internal/csot"
-	"go.mongodb.org/mongo-driver/v2/internal/driverutil"
-	"go.mongodb.org/mongo-driver/v2/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/description"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/mnet"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/session"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/event"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/codecutil"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/csot"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/driverutil"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/bsonx/bsoncore"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/description"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/mnet"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/session"
 )
 
 // ErrNoCursor is returned by NewCursorResponse when the database response does

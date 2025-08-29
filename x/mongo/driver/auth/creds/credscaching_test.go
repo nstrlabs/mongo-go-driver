@@ -17,9 +17,9 @@ import (
 	"testing"
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/internal/assert"
-	"go.mongodb.org/mongo-driver/v2/internal/aws/credentials"
-	"go.mongodb.org/mongo-driver/v2/internal/credproviders"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/assert"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/aws/credentials"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/credproviders"
 )
 
 type pipeTransport struct {

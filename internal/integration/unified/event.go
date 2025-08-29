@@ -9,8 +9,8 @@ package unified
 import (
 	"strings"
 
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/event"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/event"
 )
 
 type monitoringEventType string

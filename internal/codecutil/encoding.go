@@ -13,8 +13,8 @@ import (
 	"io"
 	"reflect"
 
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/x/bsonx/bsoncore"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/bsonx/bsoncore"
 )
 
 var ErrNilValue = errors.New("value is nil")

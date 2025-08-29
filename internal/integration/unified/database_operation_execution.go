@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/internal/bsonutil"
-	"go.mongodb.org/mongo-driver/v2/mongo/options"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/bsonutil"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/options"
 )
 
 // This file contains helpers to execute database operations.

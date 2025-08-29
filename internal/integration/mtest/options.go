@@ -10,8 +10,8 @@ import (
 	"errors"
 	"fmt"
 
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/mongo/options"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/options"
 )
 
 // TopologyKind describes the topology that a test is run on.

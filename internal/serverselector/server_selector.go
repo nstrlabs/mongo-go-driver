@@ -11,9 +11,9 @@ import (
 	"math"
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/mongo/readpref"
-	"go.mongodb.org/mongo-driver/v2/tag"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/description"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/readpref"
+	"github.com/nstrlabs/mongo-go-driver/v2/tag"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/description"
 )
 
 // Composite combines multiple selectors into a single selector by applying them

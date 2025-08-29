@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go.mongodb.org/mongo-driver/v2/internal/bsoncoreutil"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/bsoncoreutil"
 )
 
 // MalformedElementError represents a class of errors that RawElement methods return.

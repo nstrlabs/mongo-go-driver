@@ -1,12 +1,12 @@
-module go.mongodb.go/mongo-driver/v2/examples/logger/zap
+module github.com/nstrlabs/mongo-go-driver/v2/examples/logger/zap
 
 go 1.23
 
-replace go.mongodb.org/mongo-driver/v2 => ../../../
+replace github.com/nstrlabs/mongo-go-driver/v2 => ../../../
 
 require (
 	github.com/go-logr/zapr v1.2.3
-	go.mongodb.org/mongo-driver/v2 v2.0.0-alpha2
+	github.com/nstrlabs/mongo-go-driver/v2 v2.0.0-alpha2
 	go.uber.org/zap v1.24.0
 )
 

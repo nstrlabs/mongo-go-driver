@@ -10,7 +10,7 @@ import (
 	"context"
 	"fmt"
 
-	"go.mongodb.org/mongo-driver/v2/mongo"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo"
 )
 
 // ctxKey is used to define keys for values stored in context.Context objects.
