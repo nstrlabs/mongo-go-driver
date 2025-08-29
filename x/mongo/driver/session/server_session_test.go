@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/internal/assert"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/description"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/assert"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/description"
 )
 
 func TestServerSession(t *testing.T) {

@@ -13,16 +13,16 @@ import (
 	"context"
 	"testing"
 
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/event"
-	"go.mongodb.org/mongo-driver/v2/internal/assert"
-	"go.mongodb.org/mongo-driver/v2/internal/integration/mtest"
-	"go.mongodb.org/mongo-driver/v2/internal/integtest"
-	"go.mongodb.org/mongo-driver/v2/mongo"
-	"go.mongodb.org/mongo-driver/v2/mongo/options"
-	"go.mongodb.org/mongo-driver/v2/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver"
-	mcopts "go.mongodb.org/mongo-driver/v2/x/mongo/driver/mongocrypt/options"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/event"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/assert"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/integration/mtest"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/integtest"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/options"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/bsonx/bsoncore"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver"
+	mcopts "github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/mongocrypt/options"
 )
 
 // createDataKeyAndEncrypt creates a data key with the alternate name @keyName.

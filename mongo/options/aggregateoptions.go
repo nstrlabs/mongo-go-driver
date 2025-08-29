@@ -9,8 +9,8 @@ package options
 import (
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/internal/optionsutil"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/optionsutil"
 )
 
 // AggregateOptions represents arguments that can be used to configure an

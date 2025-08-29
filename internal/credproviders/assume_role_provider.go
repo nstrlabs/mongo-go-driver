@@ -15,8 +15,8 @@ import (
 	"net/http"
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/internal/aws/credentials"
-	"go.mongodb.org/mongo-driver/v2/internal/uuid"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/aws/credentials"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/uuid"
 )
 
 const (

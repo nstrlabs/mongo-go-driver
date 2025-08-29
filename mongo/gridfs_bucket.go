@@ -13,14 +13,14 @@ import (
 	"fmt"
 	"io"
 
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/internal/csot"
-	"go.mongodb.org/mongo-driver/v2/internal/mongoutil"
-	"go.mongodb.org/mongo-driver/v2/mongo/options"
-	"go.mongodb.org/mongo-driver/v2/mongo/readconcern"
-	"go.mongodb.org/mongo-driver/v2/mongo/readpref"
-	"go.mongodb.org/mongo-driver/v2/mongo/writeconcern"
-	"go.mongodb.org/mongo-driver/v2/x/bsonx/bsoncore"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/csot"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/mongoutil"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/options"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/readconcern"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/readpref"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/writeconcern"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/bsonx/bsoncore"
 )
 
 // TODO: add sessions options

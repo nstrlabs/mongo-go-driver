@@ -19,14 +19,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.mongodb.org/mongo-driver/v2/internal/driverutil"
-	"go.mongodb.org/mongo-driver/v2/mongo/address"
-	"go.mongodb.org/mongo-driver/v2/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/description"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/mnet"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/ocsp"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/wiremessage"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/driverutil"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/address"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/bsonx/bsoncore"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/description"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/mnet"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/ocsp"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/wiremessage"
 )
 
 // Connection state constants.

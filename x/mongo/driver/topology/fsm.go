@@ -11,11 +11,11 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/internal/driverutil"
-	"go.mongodb.org/mongo-driver/v2/internal/ptrutil"
-	"go.mongodb.org/mongo-driver/v2/mongo/address"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/description"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/driverutil"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/ptrutil"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/address"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/description"
 )
 
 var (

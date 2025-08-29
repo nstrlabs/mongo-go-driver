@@ -15,7 +15,7 @@ import (
 	"regexp"
 	"testing"
 
-	"go.mongodb.org/mongo-driver/v2/internal/spectest"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/spectest"
 )
 
 var encryptionSpecDir = spectest.Path("client-side-encryption/tests/legacy")

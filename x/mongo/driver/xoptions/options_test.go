@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"testing"
 
-	"go.mongodb.org/mongo-driver/v2/internal/optionsutil"
-	"go.mongodb.org/mongo-driver/v2/internal/require"
-	"go.mongodb.org/mongo-driver/v2/mongo/options"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/drivertest"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/optionsutil"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/require"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/options"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/drivertest"
 )
 
 func TestSetInternalClientOptions(t *testing.T) {

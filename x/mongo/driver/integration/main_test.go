@@ -14,16 +14,16 @@ import (
 	"strings"
 	"testing"
 
-	"go.mongodb.org/mongo-driver/v2/internal/integtest"
-	"go.mongodb.org/mongo-driver/v2/internal/require"
-	"go.mongodb.org/mongo-driver/v2/internal/serverselector"
-	"go.mongodb.org/mongo-driver/v2/mongo/writeconcern"
-	"go.mongodb.org/mongo-driver/v2/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/auth"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/connstring"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/operation"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/topology"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/integtest"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/require"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/serverselector"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/writeconcern"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/bsonx/bsoncore"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/auth"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/connstring"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/operation"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/topology"
 )
 
 var host *string

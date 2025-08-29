@@ -10,7 +10,7 @@ import (
 	"context"
 	"errors"
 
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/mnet"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/mnet"
 )
 
 // ExecuteExhaust reads a response from the provided StreamerConnection. This will error if the connection's

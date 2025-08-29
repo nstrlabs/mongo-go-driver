@@ -11,8 +11,8 @@ import (
 	"io"
 	"testing"
 
-	"go.mongodb.org/mongo-driver/v2/internal/assert"
-	"go.mongodb.org/mongo-driver/v2/internal/require"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/assert"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/require"
 )
 
 func TestBufferedvalueReader_discard(t *testing.T) {

@@ -11,12 +11,12 @@ import (
 	"context"
 	"fmt"
 
-	"go.mongodb.org/mongo-driver/v2/bson"
-	"go.mongodb.org/mongo-driver/v2/internal/bsonutil"
-	"go.mongodb.org/mongo-driver/v2/internal/integration/mtest"
-	"go.mongodb.org/mongo-driver/v2/mongo/options"
-	"go.mongodb.org/mongo-driver/v2/mongo/readconcern"
-	"go.mongodb.org/mongo-driver/v2/mongo/readpref"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/bsonutil"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/integration/mtest"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/options"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/readconcern"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/readpref"
 )
 
 type collectionData struct {

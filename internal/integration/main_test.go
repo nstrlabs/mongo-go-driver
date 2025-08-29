@@ -12,7 +12,7 @@ import (
 	"os"
 	"testing"
 
-	"go.mongodb.org/mongo-driver/v2/internal/integration/mtest"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/integration/mtest"
 )
 
 func TestMain(m *testing.M) {

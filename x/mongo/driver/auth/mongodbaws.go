@@ -11,10 +11,10 @@ import (
 	"errors"
 	"net/http"
 
-	"go.mongodb.org/mongo-driver/v2/internal/aws/credentials"
-	"go.mongodb.org/mongo-driver/v2/internal/credproviders"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/auth/creds"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/aws/credentials"
+	"github.com/nstrlabs/mongo-go-driver/v2/internal/credproviders"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/auth/creds"
 )
 
 // MongoDBAWS is the mechanism name for MongoDBAWS.

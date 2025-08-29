@@ -7,7 +7,7 @@
 package failpoint
 
 import (
-	"go.mongodb.org/mongo-driver/v2/bson"
+	"github.com/nstrlabs/mongo-go-driver/v2/bson"
 )
 
 const (

@@ -13,11 +13,11 @@ import (
 	"context"
 	"testing"
 
-	"go.mongodb.org/mongo-driver/v2/mongo/address"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/description"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/drivertest"
-	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/mnet"
+	"github.com/nstrlabs/mongo-go-driver/v2/mongo/address"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/description"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/drivertest"
+	"github.com/nstrlabs/mongo-go-driver/v2/x/mongo/driver/mnet"
 )
 
 func TestGSSAPIAuthenticator(t *testing.T) {
